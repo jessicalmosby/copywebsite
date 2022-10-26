@@ -9,7 +9,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 560px 200px;
 }
 
 header {
@@ -22,6 +22,27 @@ header {
     height: 40px;
 }
 
+h1 {
+    grid-column: 1;
+}
+
+.parag {
+    grid-column: 1;
+}
+
+.photo {
+    grid-column: 1;
+}
 figcaption {
     font-weight: bold;
+    grid-column: 1;
+}
+
+.para {
+    text-align: left;
+    grid-column: 1;
+}
+
+img {
+    grid-column: 2;
 }
