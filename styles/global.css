@@ -4,6 +4,12 @@
 }
 
 body {
+    display: grid;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
 }
 
 header {
@@ -12,6 +18,10 @@ header {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start, center, flex-end;
+    justify-content: space-between;
     height: 40px;
+}
+
+figcaption {
+    font-weight: bold;
 }
