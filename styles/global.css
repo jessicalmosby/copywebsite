@@ -30,6 +30,10 @@ h1 {
     grid-column: 1;
 }
 
+.author {
+    grid-column: 1;
+}
+
 .photo {
     grid-column: 1;
 }
@@ -43,6 +47,6 @@ figcaption {
     grid-column: 1;
 }
 
-img {
+.ad {
     grid-column: 2;
 }
