@@ -3,10 +3,6 @@
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
 
-body {
-    display: grid;
-}
-
 main {
     display: grid;
     grid-template-columns: 560px 200px;
