@@ -5,7 +5,7 @@
 
 main {
     display: grid;
-    grid-template-columns: 560px 200px;
+    grid-template-columns: 1fr 560px 200px 1fr;
 }
 
 header {
@@ -19,30 +19,36 @@ header {
 }
 
 h1 {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 .parag {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 .author {
-    grid-column: 1;
+    grid-column: 2;
 }
 
 .photo {
-    grid-column: 1;
+    grid-column: 2;
 }
 figcaption {
     font-weight: bold;
-    grid-column: 1;
+    grid-column: 2;
 }
 
 .para {
     text-align: left;
-    grid-column: 1;
+    grid-column: 2;
+    padding-left: 100px;
 }
 
 .ad {
-    grid-column: 2;
+    height: 400px;
+    width: 200px;
+    float: right;
+    position: absolute;
+    top: 60px;
+    right: 0px;
 }
